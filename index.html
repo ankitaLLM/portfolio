@@ -3,1383 +3,975 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project SENTINEL — AI-Driven Operational Resilience | Executive Proposal</title>
-    <meta name="description" content="Executive proposal for an autonomous AI-driven impact assessment framework for operational resilience and business continuity at scale.">
+    <title>Shubham Vijayvargiya — AI Strategy & Product Leader</title>
+    <meta name="description" content="Portfolio of Shubham Vijayvargiya, Vice President and AI Product Owner at BNY Mellon. 14+ years of experience in enterprise banking technology, operational resiliency, and AI-enabled product delivery.">
+    
+    <!-- Premium Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Nunito:wght@400;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Style Sheet Link -->
     <link rel="stylesheet" href="styles.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧠</text></svg>">
 </head>
 <body>
 
-    <!-- ==================== NAVBAR ==================== -->
+    <!-- ==========================================
+       NAVBAR
+       ========================================== -->
     <nav class="navbar" id="navbar">
-        <div class="navbar-inner">
-            <a href="#hero" class="navbar-logo">
-                <span class="logo-icon">◆</span> SENTINEL
-            </a>
-            <div class="navbar-links" id="navLinks">
-                <a href="#problem" class="nav-link">Problem</a>
-                <a href="#vision" class="nav-link">Vision</a>
-                <a href="#how-it-works" class="nav-link">How It Works</a>
-                <a href="#implementation" class="nav-link">Implementation</a>
-                <a href="#architecture" class="nav-link">Architecture</a>
-                <a href="#examples" class="nav-link">Examples</a>
-                <a href="#live-example" class="nav-link">Live Demo</a>
-                <a href="#roadmap" class="nav-link">Roadmap</a>
-            </div>
-            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
-                <span></span><span></span><span></span>
-            </button>
+        <div class="container">
+            <a href="#hero" class="logo">SHUBHAM<span>.V</span></a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#featured-work">Work</a></li>
+                <li><a href="#insights">Insights</a></li>
+                <li><a href="#career">Journey</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certs">Credentials</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle Menu">☰</button>
         </div>
     </nav>
 
-    <!-- ==================== HERO ==================== -->
+    <!-- ==========================================
+       HERO SECTION
+       ========================================== -->
     <section class="hero" id="hero">
-        <div class="hero-bg"></div>
-        <div class="hero-particles" id="heroParticles"></div>
+        <div class="hero-orb hero-orb--1"></div>
+        <div class="hero-orb hero-orb--2"></div>
         <div class="hero-content">
-            <div class="hero-badge scroll-reveal">EXECUTIVE PROPOSAL — JUNE 2026</div>
-            <h1 class="hero-title scroll-reveal">
-                Project <span class="glow-text">SENTINEL</span>
+            <h1 class="display-xl hero-headline">
+                SHUBHAM VIJAYVARGIYA
+                <span class="hero-headline-accent">AI Strategy & Product Leader</span>
             </h1>
-            <p class="hero-subtitle scroll-reveal">
-                AI-Driven Autonomous Impact Assessment<br>
-                for Operational Resilience & Business Continuity
+            <p class="hero-description">
+                Vice President at BNY Mellon with 14+ years of experience bridging technology and strategy. Decomposing complex banking systems and designing intelligent, agentic AI frameworks to automate enterprise operational resilience.
             </p>
-            <p class="hero-description scroll-reveal">
-                An AI system that continuously discovers our vulnerabilities, quantifies impact in real-time, 
-                simulates disruptions before they happen, and tells us exactly how to respond — 
-                deployed in <strong>6 months</strong>, with zero human intervention for assessment execution.
-            </p>
-            <div class="hero-actions scroll-reveal">
-                <a href="#how-it-works" class="btn btn-primary btn-glow">See How It Works</a>
-                <a href="#live-example" class="btn btn-outline">Watch It In Action →</a>
+            <div class="hero-buttons">
+                <a href="#featured-work" class="btn btn-primary">Explore Featured Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
             </div>
-            <div class="hero-stats scroll-reveal">
-                <div class="hero-stat">
-                    <span class="hero-stat-number counter" data-target="6">0</span><span class="hero-stat-unit"> months</span>
-                    <span class="hero-stat-label">From Kickoff to Production</span>
-                </div>
-                <div class="hero-stat-divider"></div>
-                <div class="hero-stat">
-                    <span class="hero-stat-number counter" data-target="4">0</span><span class="hero-stat-unit"> min</span>
-                    <span class="hero-stat-label">Detection to Decision</span>
-                </div>
-                <div class="hero-stat-divider"></div>
-                <div class="hero-stat">
-                    <span class="hero-stat-number counter" data-target="10000">0</span><span class="hero-stat-unit">+</span>
-                    <span class="hero-stat-label">Scenarios Tested per Quarter</span>
-                </div>
+            <div class="hero-projects">
+                <span class="hero-projects-label">Focus Areas:</span>
+                <span class="hero-project-tag"><span class="dot"></span>Agentic AI & LLMs</span>
+                <span class="hero-project-tag"><span class="dot"></span>Enterprise Resiliency</span>
+                <span class="hero-project-tag"><span class="dot"></span>Payments & APIs</span>
+                <span class="hero-project-tag"><span class="dot"></span>Data Analytics</span>
             </div>
         </div>
-        <div class="hero-scroll-indicator">
-            <span>Scroll to explore</span>
-            <div class="scroll-arrow"></div>
+        <a href="#featured-work" class="hero-scroll-indicator">
+            <span>Explore Portfolio</span>
+            <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <polyline points="19 12 12 19 5 12"></polyline>
+            </svg>
+        </a>
+    </section>
+
+    <!-- ==========================================
+       FEATURED WORK
+       ========================================== -->
+    <section class="section-featured" id="featured-work">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="display-lg fade-up">Featured Work</h2>
+                <p class="body-lg fade-up">Custom-built products and production platforms leveraging AI workflows, APIs, and analytics.</p>
+            </div>
+
+            <!-- Project 1: BNY Connection AI Monitor -->
+            <article class="featured-project fade-up">
+                <div class="featured-project-content">
+                    <div class="project-image">
+                        <div class="resiliency-monitor">
+                            <div class="monitor-panel">
+                                <div class="monitor-header">
+                                    <div class="monitor-title">
+                                        <div class="monitor-title-dot"></div>
+                                        <span>Connection AI Engine</span>
+                                    </div>
+                                    <div class="monitor-status">Status: <span>Online</span></div>
+                                </div>
+                                <div class="monitor-kpis">
+                                    <div class="monitor-kpi">
+                                        <div class="monitor-kpi-val">95%</div>
+                                        <div class="monitor-kpi-label">Sprint Velocity</div>
+                                    </div>
+                                    <div class="monitor-kpi">
+                                        <div class="monitor-kpi-val">+40%</div>
+                                        <div class="monitor-kpi-label">Cycle Boost</div>
+                                    </div>
+                                    <div class="monitor-kpi">
+                                        <div class="monitor-kpi-val">500+</div>
+                                        <div class="monitor-kpi-label">Active Users</div>
+                                    </div>
+                                </div>
+                                <div class="monitor-console">
+                                    <div class="console-line">
+                                        <span class="console-tag ok">[OK]</span>
+                                        <span class="console-msg">System initialized. Listening on 90+ platforms.</span>
+                                    </div>
+                                    <div class="console-line">
+                                        <span class="console-tag info">[INFO]</span>
+                                        <span class="console-msg">Agent [Unified ERO] scanning dependency justifications...</span>
+                                    </div>
+                                    <div class="console-line">
+                                        <span class="console-tag ok">[SUCCESS]</span>
+                                        <span class="console-msg">AI Reviewer validated CR change justifications.</span>
+                                    </div>
+                                    <div class="console-line">
+                                        <span class="console-tag info">[INFO]</span>
+                                        <span class="console-msg">Auto-summarizing resiliency risk logs...</span>
+                                    </div>
+                                    <div class="console-line">
+                                        <span class="console-tag ok">[OK]</span>
+                                        <span class="console-msg">Connection Data Insight reports synced with SharePoint.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">Agentic AI · Resiliency</span>
+                        <h3 class="heading-lg">BNY Connection &amp; ERO AI Agent Suite</h3>
+                        <p>An enterprise-grade resiliency platform supporting 500+ users and 90+ business platforms. Spearheaded the design and delivery of specialized AI agents, including the Unified ERO Knowledge Agent, AI Reviewer for Change Justifications, Defect Ticket Agent, and Connection Data Insight Agent—accelerating product delivery cycles by 40%.</p>
+                        <div class="project-links">
+                            <a href="#contact" class="btn btn-primary btn-sm">Request Case Study</a>
+                            <a href="https://www.linkedin.com/in/shubhamvijayvargiya/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">LinkedIn Details</a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Project 2: Centralized Payments Platform -->
+            <article class="featured-project fade-up">
+                <div class="featured-project-content">
+                    <div class="project-image">
+                        <div class="payment-pipeline">
+                            <div class="pipeline-card">
+                                <div class="pipeline-title">
+                                    <span>PNC Payment Processing</span>
+                                    <span class="pipeline-badge">BIAN Standards</span>
+                                </div>
+                                <div class="pipeline-flow">
+                                    <div class="pipeline-step success">
+                                        <div class="pipeline-node"></div>
+                                        <div class="pipeline-content">
+                                            <div class="pipeline-step-name">Payment Initiation</div>
+                                            <div class="pipeline-step-desc">Cards, wires, lending channels mapped</div>
+                                        </div>
+                                    </div>
+                                    <div class="pipeline-step active">
+                                        <div class="pipeline-node"></div>
+                                        <div class="pipeline-content">
+                                            <div class="pipeline-step-name">BIAN API Gateway</div>
+                                            <div class="pipeline-step-desc">35+ microservice endpoints validating schemas</div>
+                                        </div>
+                                    </div>
+                                    <div class="pipeline-step">
+                                        <div class="pipeline-node"></div>
+                                        <div class="pipeline-content">
+                                            <div class="pipeline-step-name">Kafka Settlement Route</div>
+                                            <div class="pipeline-step-desc">GL &amp; ACH Batch processing queues</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">APIs · Fintech</span>
+                        <h3 class="heading-lg">Centralized Payments Platform (CGI / PNC)</h3>
+                        <p>Led the product strategy, BIAN-compliant API requirements, and cross-functional Agile execution for centralized payments infrastructure. Coordinated the delivery of 35+ secure API, web, and mobile endpoints, integrating third-party vendors (Fiserv, FIS) and delivering mission-critical wire transfer capability 2 weeks ahead of schedule.</p>
+                        <div class="project-links">
+                            <a href="#contact" class="btn btn-primary btn-sm">Request Tech Specs</a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Project 3: Digital Onboarding & KYC Stepper -->
+            <article class="featured-project fade-up">
+                <div class="featured-project-content">
+                    <div class="project-image">
+                        <div class="kyc-preview">
+                            <div class="kyc-card">
+                                <div class="kyc-header">
+                                    <span class="kyc-title">M&amp;T Account Opening</span>
+                                    <span class="kyc-progress">Step 3 of 4</span>
+                                </div>
+                                <div class="kyc-stepper">
+                                    <div class="kyc-stepper-progress"></div>
+                                    <div class="kyc-step-dot success">✓</div>
+                                    <div class="kyc-step-dot success">✓</div>
+                                    <div class="kyc-step-dot active">3</div>
+                                    <div class="kyc-step-dot">4</div>
+                                </div>
+                                <div class="kyc-verification-box">
+                                    <div class="kyc-box-header">
+                                        <span class="kyc-box-title">KYC Validation Engine</span>
+                                        <span class="kyc-box-status">Verified</span>
+                                    </div>
+                                    <div class="kyc-fields">
+                                        <div class="kyc-field">
+                                            <span class="kyc-field-label">Document Extraction</span>
+                                            <span class="kyc-field-value">Pass (OCR)</span>
+                                        </div>
+                                        <div class="kyc-field">
+                                            <span class="kyc-field-label">AML Screening</span>
+                                            <span class="kyc-field-value">Cleared</span>
+                                        </div>
+                                        <div class="kyc-field">
+                                            <span class="kyc-field-label">Manual Data entry</span>
+                                            <span class="kyc-field-value">-55% Effort</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="kyc-btn-complete">Proceed to Disclosures</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">UX · Automation</span>
+                        <h3 class="heading-lg">Digital Onboarding &amp; KYC Modernization (Virtusa)</h3>
+                        <p>Overhauled legacy retail and business onboarding workflows for M&amp;T Bank. Streamlined customer experience paths, automated document delivery through Quadient Interactive, and designed an Institutional Client Lifecycle Management (CLM) framework, resulting in an 80% reduction in onboarding times and a 55% reduction in manual data entry.</p>
+                        <div class="project-links">
+                            <a href="#contact" class="btn btn-primary btn-sm">Request Case Study</a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Project 4: Champion Academy Gamified Dashboard -->
+            <article class="featured-project fade-up">
+                <div class="featured-project-content">
+                    <div class="project-image">
+                        <div class="champion-preview">
+                            <div class="champion-card">
+                                <div class="champion-header">
+                                    <div class="champion-user">
+                                        <div class="champion-avatar">🎓</div>
+                                        <div>
+                                            <div class="champion-username">Aria the Champion</div>
+                                            <div class="champion-level">Level 12 Explorer</div>
+                                        </div>
+                                    </div>
+                                    <div class="champion-score">🏆 3,240 XP</div>
+                                </div>
+                                <div class="champion-modules">
+                                    <div class="champion-module math">
+                                        <div class="champion-module-header">
+                                            <span class="champion-module-icon">🔢</span>
+                                            <span class="champion-module-stars">⭐⭐⭐</span>
+                                        </div>
+                                        <span class="champion-module-name">Math Adventure</span>
+                                        <div class="champion-progress-container">
+                                            <div class="champion-progress-bar"></div>
+                                        </div>
+                                    </div>
+                                    <div class="champion-module reading">
+                                        <div class="champion-module-header">
+                                            <span class="champion-module-icon">📚</span>
+                                            <span class="champion-module-stars">⭐⭐⭐⭐</span>
+                                        </div>
+                                        <span class="champion-module-name">Reading Quest</span>
+                                        <div class="champion-progress-container">
+                                            <div class="champion-progress-bar"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="champion-trophy-card">
+                                    <span class="champion-trophy-icon">🥇</span>
+                                    <div class="champion-trophy-text">
+                                        <h4>Science Badge Unlocked!</h4>
+                                        <p>Completed 1st Grade space worksheet.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">Frontend · EdTech</span>
+                        <h3 class="heading-lg">Champion Academy — 1st Grade Learning Adventure</h3>
+                        <p>An interactive, gamified educational platform built to engage 1st-grade students in core disciplines including reading, math, science, and social studies. Focuses on intuitive user interactions, animated progress systems, and responsive game-style worksheets to foster independent learning.</p>
+                        <div class="project-links">
+                            <a href="https://shubham-vijayvargiya.github.io/first-grade/#home" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">Launch Live Site</a>
+                            <a href="https://github.com/shubham-vijayvargiya/first-grade" target="_blank" rel="noopener" class="btn btn-secondary btn-sm">View on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </article>
         </div>
     </section>
 
-    <!-- ==================== THE PROBLEM ==================== -->
-    <section class="section" id="problem">
-        <div class="section-inner">
-            <div class="section-header scroll-reveal">
-                <span class="section-label">01 — The Problem</span>
-                <h2 class="section-title">Our Current Approach<br>Is <span class="glow-text">Fundamentally Broken</span></h2>
-                <p class="section-subtitle">
-                    We spend 12 weeks and 3,400+ staff hours on annual assessments — 
-                    and the results are stale before the ink dries.
-                </p>
+    <!-- ==========================================
+       INSIGHTS SECTION
+       ========================================== */ -->
+    <section class="section-insights" id="insights">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="display-lg fade-up">Insights</h2>
+                <p class="body-lg fade-up">Thought leadership pieces exploring AI product architecture, banking technologies, and enterprise delivery.</p>
             </div>
 
-            <div class="current-process scroll-reveal">
-                <div class="process-flow">
-                    <div class="process-step">
-                        <div class="process-icon">📋</div>
-                        <div class="process-label">Annual BIA Kickoff</div>
-                        <div class="process-time">Week 1</div>
-                    </div>
-                    <div class="process-arrow">→</div>
-                    <div class="process-step">
-                        <div class="process-icon">📧</div>
-                        <div class="process-label">Survey 200+ Owners</div>
-                        <div class="process-time">Week 2–3</div>
-                    </div>
-                    <div class="process-arrow">→</div>
-                    <div class="process-step">
-                        <div class="process-icon">⏳</div>
-                        <div class="process-label">Chase Responses</div>
-                        <div class="process-time">Week 4–8</div>
-                    </div>
-                    <div class="process-arrow">→</div>
-                    <div class="process-step">
-                        <div class="process-icon">📊</div>
-                        <div class="process-label">Aggregate in Excel</div>
-                        <div class="process-time">Week 9–10</div>
-                    </div>
-                    <div class="process-arrow">→</div>
-                    <div class="process-step process-step-bad">
-                        <div class="process-icon">❌</div>
-                        <div class="process-label">Stale on Delivery</div>
-                        <div class="process-time">Week 12</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="pain-points scroll-reveal">
-                <div class="pain-card">
-                    <div class="pain-icon">🔄</div>
-                    <h3 class="pain-title">Periodic, Not Continuous</h3>
-                    <p class="pain-desc">A critical vendor added in March isn't assessed until next January. New risks go undetected for months.</p>
-                </div>
-                <div class="pain-card">
-                    <div class="pain-icon">🗺️</div>
-                    <h3 class="pain-title">60% Accurate Maps</h3>
-                    <p class="pain-desc">Dependency maps are self-reported and incomplete. Hidden dependencies cause surprise cascades during real incidents.</p>
-                </div>
-                <div class="pain-card">
-                    <div class="pain-icon">📝</div>
-                    <h3 class="pain-title">Qualitative, Not Quantified</h3>
-                    <p class="pain-desc">"High / Medium / Low" doesn't enable risk-based decisions. We need dollar figures, not adjectives.</p>
-                </div>
-                <div class="pain-card">
-                    <div class="pain-icon">♻️</div>
-                    <h3 class="pain-title">Recycled Scenarios</h3>
-                    <p class="pain-desc">Same 20 scenarios every year. We test for last year's crisis while next year's threat goes unexamined.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ==================== VISION ==================== -->
-    <section class="section section-dark" id="vision">
-        <div class="section-inner">
-            <div class="section-header scroll-reveal">
-                <span class="section-label">02 — The Vision</span>
-                <h2 class="section-title">What <span class="glow-text">SENTINEL</span> Does</h2>
-                <p class="section-subtitle">
-                    Think of it as a tireless risk analyst that watches every system, every vendor, 
-                    every dependency — 24/7/365 — and tells you exactly what's at risk and what to do about it.
-                </p>
-            </div>
-
-            <div class="vision-simple scroll-reveal">
-                <div class="vision-step-grid">
-                    <div class="vision-step-card">
-                        <div class="vision-step-number">1</div>
-                        <div class="vision-step-icon">🔍</div>
-                        <h3>It Watches Everything</h3>
-                        <p>The AI continuously reads telemetry from every system, API, vendor, and data flow. It builds a living map of how everything connects.</p>
-                        <div class="vision-step-analogy">
-                            <em>Like having a GPS map of your entire operation that updates every second</em>
-                        </div>
-                    </div>
-                    <div class="vision-step-card">
-                        <div class="vision-step-number">2</div>
-                        <div class="vision-step-icon">🧠</div>
-                        <h3>It Understands Impact</h3>
-                        <p>When something looks wrong, AI models instantly calculate: "If this breaks, here's what happens — in dollars, in clients affected, in regulatory consequences."</p>
-                        <div class="vision-step-analogy">
-                            <em>Like a doctor who can instantly tell you what every symptom means for the whole body</em>
-                        </div>
-                    </div>
-                    <div class="vision-step-card">
-                        <div class="vision-step-number">3</div>
-                        <div class="vision-step-icon">🎯</div>
-                        <h3>It Tests "What If"</h3>
-                        <p>GenAI creates thousands of disruption scenarios and runs them against a digital replica of our environment — finding vulnerabilities we never imagined.</p>
-                        <div class="vision-step-analogy">
-                            <em>Like a flight simulator that crash-tests every possible failure before a real flight</em>
-                        </div>
-                    </div>
-                    <div class="vision-step-card">
-                        <div class="vision-step-number">4</div>
-                        <div class="vision-step-icon">🛡️</div>
-                        <h3>It Tells You What to Do</h3>
-                        <p>When it finds a problem, it produces the optimal recovery sequence and step-by-step runbook — not just "there's a risk," but "here's exactly how to fix it."</p>
-                        <div class="vision-step-analogy">
-                            <em>Like a co-pilot that doesn't just warn you — it hands you the checklist</em>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="vision-callout scroll-reveal">
-                <p>Humans <strong>don't</strong> perform assessments anymore.<br>
-                Humans <strong>make decisions</strong> based on what the AI finds.<br>
-                We remove the <strong>labor</strong>. We keep the <strong>judgment</strong>.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- ==================== HOW IT WORKS — DEEP DIVE ==================== -->
-    <section class="section" id="how-it-works">
-        <div class="section-inner">
-            <div class="section-header scroll-reveal">
-                <span class="section-label">03 — How It Works</span>
-                <h2 class="section-title">Under the Hood: <span class="glow-text">Five AI Layers</span></h2>
-                <p class="section-subtitle">
-                    Each layer is a distinct AI capability. They chain together into a continuous assessment loop. 
-                    Click any layer to see exactly how it works.
-                </p>
-            </div>
-
-            <!-- Pipeline Visual -->
-            <div class="layers-pipeline scroll-reveal">
-                <div class="layer-node" data-layer="1">
-                    <div class="layer-number">01</div>
-                    <div class="layer-icon">🔍</div>
-                    <h3 class="layer-title">DISCOVER</h3>
-                    <p class="layer-desc">Auto-map services, systems, vendors, people & data dependencies</p>
-                    <div class="layer-detail" id="layerDetail1">
-                        <div class="layer-detail-inner">
-                            <h4>How Discovery Works</h4>
-                            <ul>
-                                <li><strong>NLP reads documents</strong> — BCP plans, SOPs, audit reports are parsed to extract service names, ownership, and process flows</li>
-                                <li><strong>APM telemetry mining</strong> — Real API call patterns from Dynatrace/AppDynamics reveal the actual dependencies (not what people think they are)</li>
-                                <li><strong>Contract analysis</strong> — NLP reads vendor contracts to automatically identify third-party dependencies and SLA terms</li>
-                                <li><strong>Graph construction</strong> — Everything feeds into a Neo4j knowledge graph: services → systems → vendors → people → data</li>
-                            </ul>
-                            <div class="layer-stat">
-                                <span class="layer-stat-number">95%+</span>
-                                <span class="layer-stat-label">Dependency map accuracy (vs 60% manual)</span>
+            <div class="insights-carousel-wrapper fade-up">
+                <button class="carousel-btn carousel-btn-prev" id="insightsPrev" aria-label="Previous articles">←</button>
+                <div class="insights-carousel" id="insightsCarousel">
+                    <div class="insights-track" id="insightsTrack">
+                        
+                        <!-- Article 1 -->
+                        <a href="https://www.linkedin.com/in/shubhamvijayvargiya/" target="_blank" class="insight-card">
+                            <div class="insight-image">
+                                <span class="insight-image-icon">🤖</span>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="layer-connector"></div>
-                <div class="layer-node" data-layer="2">
-                    <div class="layer-number">02</div>
-                    <div class="layer-icon">📊</div>
-                    <h3 class="layer-title">QUANTIFY</h3>
-                    <p class="layer-desc">Score impact in dollars across 6 dimensions using ML models</p>
-                    <div class="layer-detail" id="layerDetail2">
-                        <div class="layer-detail-inner">
-                            <h4>How Scoring Works</h4>
-                            <ul>
-                                <li><strong>6 specialized ML models</strong> — One per dimension: Financial (XGBoost), Customer (Neural Net), Regulatory (fine-tuned LLM), Reputational (FinBERT sentiment), Systemic (Graph Neural Net), Data (Classifier)</li>
-                                <li><strong>Monte Carlo simulation</strong> — 100,000 iterations per service to produce loss distributions, not single estimates</li>
-                                <li><strong>Cascade analysis</strong> — Graph Neural Network predicts how a single failure propagates through the dependency graph</li>
-                            </ul>
-                            <div class="layer-stat">
-                                <span class="layer-stat-number">100K</span>
-                                <span class="layer-stat-label">Simulations per service for loss quantification</span>
+                            <div class="insight-content">
+                                <div class="insight-meta">
+                                    <span class="insight-category">AI Strategy</span>
+                                    <span>10 min read</span>
+                                </div>
+                                <h4 class="heading-md">Agentic AI in the Enterprise: Decomposing Workflows</h4>
+                                <p>Practical insights on orchestrating agent toolsets in highly regulated banking environments, managing LLM prompts, and establishing human-in-the-loop validation checkpoints.</p>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="layer-connector"></div>
-                <div class="layer-node" data-layer="3">
-                    <div class="layer-number">03</div>
-                    <div class="layer-icon">🎯</div>
-                    <h3 class="layer-title">SIMULATE</h3>
-                    <p class="layer-desc">Generate novel scenarios with GenAI & test on a digital twin</p>
-                    <div class="layer-detail" id="layerDetail3">
-                        <div class="layer-detail-inner">
-                            <h4>How Simulation Works</h4>
-                            <ul>
-                                <li><strong>GenAI scenario engine</strong> — Fine-tuned LLM creates novel disruption scenarios from threat intel, past incidents, and our specific tech stack</li>
-                                <li><strong>Digital twin</strong> — Virtual replica with transaction agents, system agents, and human response agents simulates real behavior</li>
-                                <li><strong>Adversarial RL</strong> — A reinforcement learning agent is trained to find the worst-case attack paths we haven't considered</li>
-                                <li><strong>Plausibility filter</strong> — Every generated scenario is scored for realism before testing</li>
-                            </ul>
-                            <div class="layer-stat">
-                                <span class="layer-stat-number">10,000+</span>
-                                <span class="layer-stat-label">Novel scenarios generated and tested per quarter</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="layer-connector"></div>
-                <div class="layer-node" data-layer="4">
-                    <div class="layer-number">04</div>
-                    <div class="layer-icon">🛡️</div>
-                    <h3 class="layer-title">RESPOND</h3>
-                    <p class="layer-desc">Optimize recovery sequence & auto-generate runbooks</p>
-                    <div class="layer-detail" id="layerDetail4">
-                        <div class="layer-detail-inner">
-                            <h4>How Response Works</h4>
-                            <ul>
-                                <li><strong>MILP Optimizer</strong> — Solves the recovery sequencing problem in seconds: which services to restore first, given dependencies and resource constraints</li>
-                                <li><strong>RAG-powered runbooks</strong> — LLM retrieves relevant past runbooks, system docs, and vendor guides to produce context-specific recovery steps</li>
-                                <li><strong>Dynamic adaptation</strong> — Runbooks change based on time of day, available staff, current system state, and active incidents</li>
-                            </ul>
-                            <div class="layer-stat">
-                                <span class="layer-stat-number">Seconds</span>
-                                <span class="layer-stat-label">To produce optimal recovery plan (vs hours in war room)</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="layer-connector"></div>
-                <div class="layer-node" data-layer="5">
-                    <div class="layer-number">05</div>
-                    <div class="layer-icon">📋</div>
-                    <h3 class="layer-title">REPORT</h3>
-                    <p class="layer-desc">Auto-generate regulatory reports & immutable audit trail</p>
-                    <div class="layer-detail" id="layerDetail5">
-                        <div class="layer-detail-inner">
-                            <h4>How Reporting Works</h4>
-                            <ul>
-                                <li><strong>Template-driven LLM</strong> — Maps assessment data to PRA, DORA, OCC report formats automatically</li>
-                                <li><strong>Explainability engine</strong> — Every score includes plain-English reasoning: "This scored 92 because..."</li>
-                                <li><strong>Immutable audit ledger</strong> — Every AI decision is logged with input hashes, model versions, confidence scores for full auditability</li>
-                            </ul>
-                            <div class="layer-stat">
-                                <span class="layer-stat-number">95%</span>
-                                <span class="layer-stat-label">Reduction in regulatory report preparation time</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                        </a>
 
-            <!-- Simple explanation of the data flow -->
-            <div class="data-flow-explainer scroll-reveal">
-                <h3 class="subsection-title">How Data Flows Through SENTINEL</h3>
-                <div class="data-flow-diagram">
-                    <div class="flow-source-group">
-                        <div class="flow-source">
-                            <span class="flow-source-icon">📡</span>
-                            <span class="flow-source-name">APM Telemetry</span>
-                            <span class="flow-source-freq">Real-time</span>
-                        </div>
-                        <div class="flow-source">
-                            <span class="flow-source-icon">🔧</span>
-                            <span class="flow-source-name">ServiceNow / CMDB</span>
-                            <span class="flow-source-freq">Daily</span>
-                        </div>
-                        <div class="flow-source">
-                            <span class="flow-source-icon">📄</span>
-                            <span class="flow-source-name">Documents & Contracts</span>
-                            <span class="flow-source-freq">On change</span>
-                        </div>
-                        <div class="flow-source">
-                            <span class="flow-source-icon">🌐</span>
-                            <span class="flow-source-name">Threat Intel Feeds</span>
-                            <span class="flow-source-freq">Hourly</span>
-                        </div>
-                        <div class="flow-source">
-                            <span class="flow-source-icon">💹</span>
-                            <span class="flow-source-name">Transaction Systems</span>
-                            <span class="flow-source-freq">Every 15 min</span>
-                        </div>
-                    </div>
-                    <div class="flow-arrow-big">→</div>
-                    <div class="flow-engine">
-                        <div class="flow-engine-label">SENTINEL AI ENGINE</div>
-                        <div class="flow-engine-steps">
-                            <span>Ingest</span>
-                            <span>→</span>
-                            <span>Enrich</span>
-                            <span>→</span>
-                            <span>Score</span>
-                            <span>→</span>
-                            <span>Simulate</span>
-                            <span>→</span>
-                            <span>Act</span>
-                        </div>
-                    </div>
-                    <div class="flow-arrow-big">→</div>
-                    <div class="flow-output-group">
-                        <div class="flow-output">
-                            <span class="flow-output-icon">📊</span>
-                            <span class="flow-output-name">Live Risk Dashboard</span>
-                        </div>
-                        <div class="flow-output">
-                            <span class="flow-output-icon">🚨</span>
-                            <span class="flow-output-name">Automated Alerts</span>
-                        </div>
-                        <div class="flow-output">
-                            <span class="flow-output-icon">📋</span>
-                            <span class="flow-output-name">Regulatory Reports</span>
-                        </div>
-                        <div class="flow-output">
-                            <span class="flow-output-icon">📖</span>
-                            <span class="flow-output-name">Recovery Runbooks</span>
-                        </div>
+                        <!-- Article 2 -->
+                        <a href="https://www.linkedin.com/in/shubhamvijayvargiya/" target="_blank" class="insight-card">
+                            <div class="insight-image">
+                                <span class="insight-image-icon">📊</span>
+                            </div>
+                            <div class="insight-content">
+                                <div class="insight-meta">
+                                    <span class="insight-category">Data Engineering</span>
+                                    <span>12 min read</span>
+                                </div>
+                                <h4 class="heading-md">Designing High-Availability Resiliency Architectures</h4>
+                                <p>Exploring how real-time risk telemetry, automated impact assessments, and Power BI dashboards can eliminate manual data collection and enhance operational resiliency.</p>
+                            </div>
+                        </a>
+
+                        <!-- Article 3 -->
+                        <a href="https://www.linkedin.com/in/shubhamvijayvargiya/" target="_blank" class="insight-card">
+                            <div class="insight-image">
+                                <span class="insight-image-icon">💡</span>
+                            </div>
+                            <div class="insight-content">
+                                <div class="insight-meta">
+                                    <span class="insight-category">Product Strategy</span>
+                                    <span>8 min read</span>
+                                </div>
+                                <h4 class="heading-md">Bridging the Gap: The Technical AI Product Owner</h4>
+                                <p>How to translate regulatory constraints into implementation-ready requirements, align third-party banking APIs, and design scalable platform solutions.</p>
+                            </div>
+                        </a>
+                        
                     </div>
                 </div>
+                <button class="carousel-btn carousel-btn-next" id="insightsNext" aria-label="Next articles">→</button>
             </div>
         </div>
     </section>
 
-    <!-- ==================== IMPLEMENTATION APPROACH ==================== -->
-    <section class="section section-dark" id="implementation">
-        <div class="section-inner">
-            <div class="section-header scroll-reveal">
-                <span class="section-label">04 — Implementation Approach</span>
-                <h2 class="section-title">How We Build This in <span class="glow-text">6 Months</span></h2>
-                <p class="section-subtitle">
-                    We don't build a monolith. We ship working capabilities every 6 weeks using an MVP-first approach. 
-                    Each sprint delivers a usable product that's better than what we have today.
-                </p>
+    <!-- ==========================================
+       CAREER JOURNEY
+       ========================================== -->
+    <section class="section-career" id="career">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="display-lg fade-up">Career Journey</h2>
+                <p class="body-lg fade-up">14+ years of specialized experience in product management, enterprise systems, and AI automation.</p>
             </div>
 
-            <!-- Core Principle -->
-            <div class="impl-principle scroll-reveal">
-                <div class="principle-card">
-                    <h3>🎯 The Core Principle: <span class="glow-text">Ship Early, Learn Fast</span></h3>
-                    <p>We don't wait 6 months to see results. <strong>Week 6</strong> delivers a working dependency map. <strong>Week 12</strong> delivers real-time impact scoring. Each sprint builds on the last and learns from real data.</p>
-                </div>
-            </div>
-
-            <!-- Sprint Timeline -->
-            <div class="sprint-timeline scroll-reveal">
-
-                <div class="sprint-block sprint-current">
-                    <div class="sprint-header">
-                        <div class="sprint-badge"><span class="badge badge-info">SPRINT 1</span></div>
-                        <h3 class="sprint-title">Foundation & Discovery</h3>
-                        <span class="sprint-dates">Weeks 1–6</span>
-                    </div>
-                    <div class="sprint-content">
-                        <div class="sprint-what">
-                            <h4>What We Build</h4>
-                            <ul>
-                                <li>Connect data sources: APM telemetry, CMDB, ServiceNow incidents</li>
-                                <li>Deploy Neo4j graph database for dependency mapping</li>
-                                <li>Build NLP pipeline to parse existing BCP documents</li>
-                                <li>Auto-discover service dependencies from real API traffic patterns</li>
-                                <li>Produce first auto-generated dependency map</li>
-                            </ul>
-                        </div>
-                        <div class="sprint-how">
-                            <h4>How It Works (Technically)</h4>
-                            <div class="tech-explainer">
-                                <div class="tech-step">
-                                    <span class="tech-num">1</span>
-                                    <div>
-                                        <strong>Apache Kafka</strong> streams real-time APM data (Dynatrace traces, service call graphs) into a <strong>Databricks lakehouse</strong>
-                                    </div>
-                                </div>
-                                <div class="tech-step">
-                                    <span class="tech-num">2</span>
-                                    <div>
-                                        <strong>BERTopic NLP models</strong> process 10,000+ BCP/SOP documents, extracting service entities, ownership, and process relationships
-                                    </div>
-                                </div>
-                                <div class="tech-step">
-                                    <span class="tech-num">3</span>
-                                    <div>
-                                        <strong>Graph Convolutional Networks</strong> analyze API call patterns to infer dependencies that aren't documented — including latent ones from co-failure patterns
-                                    </div>
-                                </div>
-                                <div class="tech-step">
-                                    <span class="tech-num">4</span>
-                                    <div>
-                                        All discovered relationships populate a <strong>Neo4j knowledge graph</strong> with node types: Service, App, Database, API, Vendor, Person, DataAsset
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="sprint-deliverable">
-                            <span class="deliverable-label">✅ Sprint 1 Deliverable</span>
-                            <span class="deliverable-text">Living dependency map with 95%+ accuracy — immediately better than our current 60% self-reported maps</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="sprint-block">
-                    <div class="sprint-header">
-                        <div class="sprint-badge"><span class="badge badge-warning">SPRINT 2</span></div>
-                        <h3 class="sprint-title">Impact Scoring & Cascade Analysis</h3>
-                        <span class="sprint-dates">Weeks 7–12</span>
-                    </div>
-                    <div class="sprint-content">
-                        <div class="sprint-what">
-                            <h4>What We Build</h4>
-                            <ul>
-                                <li>Train 6 impact scoring models (Financial, Customer, Regulatory, Reputational, Systemic, Data)</li>
-                                <li>Deploy cascade failure predictor on the dependency graph</li>
-                                <li>Build Monte Carlo simulation engine for loss quantification</li>
-                                <li>Launch real-time risk scoring dashboard</li>
-                                <li>Set up automated alerting for impact tolerance breaches</li>
-                            </ul>
-                        </div>
-                        <div class="sprint-how">
-                            <h4>How It Works (Technically)</h4>
-                            <div class="tech-explainer">
-                                <div class="tech-step">
-                                    <span class="tech-num">1</span>
-                                    <div>
-                                        <strong>XGBoost regressors</strong> trained on historical incident data, revenue per service, SLA penalties, and transaction volumes to predict dollar-loss per hour of disruption
-                                    </div>
-                                </div>
-                                <div class="tech-step">
-                                    <span class="tech-num">2</span>
-                                    <div>
-                                        <strong>Message-Passing Neural Network (MPNN)</strong> runs on the Neo4j graph to predict cascade probabilities — "if Node A fails, what's the probability Node B fails within 30 minutes?"
-                                    </div>
-                                </div>
-                                <div class="tech-step">
-                                    <span class="tech-num">3</span>
-                                    <div>
-                                        <strong>Monte Carlo engine</strong> runs 100K iterations per service, sampling disruption duration, scope, and timing to produce loss distributions (VaR 95%, VaR 99%, Expected Shortfall)
-                                    </div>
-                                </div>
-                                <div class="tech-step">
-                                    <span class="tech-num">4</span>
-                                    <div>
-                                        A <strong>composite impact score</strong> formula combines all 6 dimensions with weights calibrated to our risk appetite: <code>Impact = Σ αd · fd(service, time) · g(duration)</code>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="sprint-deliverable">
-                            <span class="deliverable-label">✅ Sprint 2 Deliverable</span>
-                            <span class="deliverable-text">Real-time impact scoring dashboard with dollar-denominated risk for every Important Business Service — with cascade analysis</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="sprint-block">
-                    <div class="sprint-header">
-                        <div class="sprint-badge"><span class="badge badge-critical">SPRINT 3</span></div>
-                        <h3 class="sprint-title">Scenario Simulation & Digital Twin</h3>
-                        <span class="sprint-dates">Weeks 13–18</span>
-                    </div>
-                    <div class="sprint-content">
-                        <div class="sprint-what">
-                            <h4>What We Build</h4>
-                            <ul>
-                                <li>Deploy GenAI scenario generation engine (fine-tuned LLM)</li>
-                                <li>Build digital twin with agent-based modeling</li>
-                                <li>Implement adversarial RL agent for worst-case discovery</li>
-                                <li>Integrate with scenario library and plausibility filters</li>
-                                <li>Run first automated stress test cycle</li>
-                            </ul>
-                        </div>
-                        <div class="sprint-how">
-                            <h4>How It Works (Technically)</h4>
-                            <div class="tech-explainer">
-                                <div class="tech-step">
-                                    <span class="tech-num">1</span>
-                                    <div>
-                                        <strong>Fine-tuned Llama 3 model</strong> generates novel disruption scenarios by combining threat intelligence (FS-ISAC, CISA), our tech stack topology, and historical incident patterns
-                                    </div>
-                                </div>
-                                <div class="tech-step">
-                                    <span class="tech-num">2</span>
-                                    <div>
-                                        <strong>Agent-based digital twin</strong> (Python/Mesa framework) simulates transaction flows, system behavior under stress, human response times, and vendor SLA adherence
-                                    </div>
-                                </div>
-                                <div class="tech-step">
-                                    <span class="tech-num">3</span>
-                                    <div>
-                                        <strong>Adversarial RL agent</strong> (PPO algorithm) is trained to maximize disruption within plausibility constraints — finding attack paths humans never considered
-                                    </div>
-                                </div>
-                                <div class="tech-step">
-                                    <span class="tech-num">4</span>
-                                    <div>
-                                        A <strong>plausibility classifier</strong> trained on real banking incidents filters out implausible scenarios, keeping only actionable threats
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="sprint-deliverable">
-                            <span class="deliverable-label">✅ Sprint 3 Deliverable</span>
-                            <span class="deliverable-text">10,000+ generated scenarios tested per quarter — including compound and novel threats no human assessor has considered</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="sprint-block">
-                    <div class="sprint-header">
-                        <div class="sprint-badge"><span class="badge badge-success">SPRINT 4</span></div>
-                        <h3 class="sprint-title">Response Automation & Go-Live</h3>
-                        <span class="sprint-dates">Weeks 19–26</span>
-                    </div>
-                    <div class="sprint-content">
-                        <div class="sprint-what">
-                            <h4>What We Build</h4>
-                            <ul>
-                                <li>Deploy recovery optimization engine (MILP solver)</li>
-                                <li>Build RAG-powered runbook generator</li>
-                                <li>Implement automated regulatory report generation</li>
-                                <li>Set up immutable audit trail (Amazon QLDB)</li>
-                                <li>SR 11-7 model validation & documentation</li>
-                                <li>Production hardening & go-live</li>
-                            </ul>
-                        </div>
-                        <div class="sprint-how">
-                            <h4>How It Works (Technically)</h4>
-                            <div class="tech-explainer">
-                                <div class="tech-step">
-                                    <span class="tech-num">1</span>
-                                    <div>
-                                        <strong>Google OR-Tools MILP solver</strong> computes optimal recovery sequence in seconds, subject to dependency ordering, resource constraints, and regulatory mandates
-                                    </div>
-                                </div>
-                                <div class="tech-step">
-                                    <span class="tech-num">2</span>
-                                    <div>
-                                        <strong>RAG pipeline</strong> (LangChain + vector DB) retrieves relevant past runbooks, system docs, and vendor guides, then an LLM synthesizes context-specific recovery procedures
-                                    </div>
-                                </div>
-                                <div class="tech-step">
-                                    <span class="tech-num">3</span>
-                                    <div>
-                                        <strong>Template-driven reporting</strong> maps live assessment data to PRA PS6/21, DORA, and OCC report formats — with LLM-generated executive summaries
-                                    </div>
-                                </div>
-                                <div class="tech-step">
-                                    <span class="tech-num">4</span>
-                                    <div>
-                                        <strong>Challenger models</strong> run in parallel for SR 11-7 compliance — automated comparison of primary vs challenger outputs with drift detection (PSI/KS statistics)
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="sprint-deliverable">
-                            <span class="deliverable-label">✅ Sprint 4 Deliverable</span>
-                            <span class="deliverable-text">Full autonomous assessment system in production — from discovery to response to regulatory reporting — with model governance and audit trail</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ==================== ARCHITECTURE ==================== -->
-    <section class="section" id="architecture">
-        <div class="section-inner">
-            <div class="section-header scroll-reveal">
-                <span class="section-label">05 — Architecture & Tech Stack</span>
-                <h2 class="section-title">What We <span class="glow-text">Build With</span></h2>
-                <p class="section-subtitle">Every component uses proven, enterprise-grade technology. No science projects. No unproven vendors.</p>
-            </div>
-
-            <div class="tech-stack-grid scroll-reveal">
-                <div class="tech-category">
-                    <h4 class="tech-cat-title">🧠 AI / ML Layer</h4>
-                    <div class="tech-items">
-                        <div class="tech-item">
-                            <span class="tech-name">XGBoost / PyTorch</span>
-                            <span class="tech-use">Impact scoring models</span>
-                        </div>
-                        <div class="tech-item">
-                            <span class="tech-name">Fine-tuned Llama 3</span>
-                            <span class="tech-use">Scenario generation, runbooks</span>
-                        </div>
-                        <div class="tech-item">
-                            <span class="tech-name">LangChain + RAG</span>
-                            <span class="tech-use">Context-aware document generation</span>
-                        </div>
-                        <div class="tech-item">
-                            <span class="tech-name">Graph Neural Networks</span>
-                            <span class="tech-use">Cascade prediction on dependency graph</span>
-                        </div>
-                        <div class="tech-item">
-                            <span class="tech-name">FinBERT / BERTopic</span>
-                            <span class="tech-use">Sentiment analysis, NLP entity extraction</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="tech-category">
-                    <h4 class="tech-cat-title">🏗️ Data & Infrastructure</h4>
-                    <div class="tech-items">
-                        <div class="tech-item">
-                            <span class="tech-name">Neo4j</span>
-                            <span class="tech-use">Dependency knowledge graph</span>
-                        </div>
-                        <div class="tech-item">
-                            <span class="tech-name">Apache Kafka</span>
-                            <span class="tech-use">Real-time telemetry streaming</span>
-                        </div>
-                        <div class="tech-item">
-                            <span class="tech-name">Databricks</span>
-                            <span class="tech-use">Unified data lakehouse & ML platform</span>
-                        </div>
-                        <div class="tech-item">
-                            <span class="tech-name">Google OR-Tools</span>
-                            <span class="tech-use">Recovery optimization solver</span>
-                        </div>
-                        <div class="tech-item">
-                            <span class="tech-name">Amazon QLDB</span>
-                            <span class="tech-use">Immutable audit trail</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="tech-category">
-                    <h4 class="tech-cat-title">📊 Observability & Integration</h4>
-                    <div class="tech-items">
-                        <div class="tech-item">
-                            <span class="tech-name">Dynatrace</span>
-                            <span class="tech-use">APM, service topology discovery</span>
-                        </div>
-                        <div class="tech-item">
-                            <span class="tech-name">ServiceNow APIs</span>
-                            <span class="tech-use">CMDB, incident, change data</span>
-                        </div>
-                        <div class="tech-item">
-                            <span class="tech-name">Grafana</span>
-                            <span class="tech-use">Real-time risk dashboards</span>
-                        </div>
-                        <div class="tech-item">
-                            <span class="tech-name">Apache Airflow</span>
-                            <span class="tech-use">ML pipeline orchestration</span>
-                        </div>
-                        <div class="tech-item">
-                            <span class="tech-name">Mesa (Python)</span>
-                            <span class="tech-use">Agent-based digital twin simulation</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Why these choices -->
-            <div class="tech-rationale scroll-reveal">
-                <h3 class="subsection-title">Why These Choices</h3>
-                <div class="rationale-grid">
-                    <div class="rationale-item">
-                        <div class="rationale-icon">🏦</div>
-                        <h4>Enterprise-Proven</h4>
-                        <p>Every tool is already used in financial services. Neo4j powers fraud detection at major banks. Kafka runs at Goldman Sachs. Databricks is FedRAMP authorized.</p>
-                    </div>
-                    <div class="rationale-item">
-                        <div class="rationale-icon">🔓</div>
-                        <h4>No Vendor Lock-In</h4>
-                        <p>Open-source models (Llama 3) run on-premise. All data stays in our cloud. We can swap any component without rewriting the system.</p>
-                    </div>
-                    <div class="rationale-item">
-                        <div class="rationale-icon">⚡</div>
-                        <h4>Build vs Buy</h4>
-                        <p>We buy commodity infrastructure (Kafka, Neo4j, Databricks). We build the AI models in-house — because our risk assessment logic is our competitive advantage.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ==================== IMPLEMENTATION EXAMPLES ==================== -->
-    <section class="section section-dark" id="examples">
-        <div class="section-inner">
-            <div class="section-header scroll-reveal">
-                <span class="section-label">06 — Real-World Examples</span>
-                <h2 class="section-title">Three Scenarios <span class="glow-text">SENTINEL Handles</span></h2>
-                <p class="section-subtitle">Each example shows the AI system working autonomously — from detection through resolution.</p>
-            </div>
-
-            <div class="example-tabs scroll-reveal">
-                <div class="tab-nav">
-                    <button class="tab-btn active" data-tab="tabA">
-                        <span class="tab-icon">🏦</span>
-                        <span class="tab-text">Settlement Cascade</span>
-                    </button>
-                    <button class="tab-btn" data-tab="tabB">
-                        <span class="tab-icon">🔗</span>
-                        <span class="tab-text">Vendor Concentration</span>
-                    </button>
-                    <button class="tab-btn" data-tab="tabC">
-                        <span class="tab-icon">🛡️</span>
-                        <span class="tab-text">Cyber Resilience</span>
-                    </button>
-                </div>
-
-                <div class="tab-panel active" id="tabA">
-                    <div class="example-scenario">
-                        <div class="scenario-header">
-                            <span class="badge badge-critical">CRITICAL</span>
-                            <h3>Hidden Single Point of Failure Detected</h3>
-                        </div>
-                        <p class="scenario-premise">
-                            The Settlement platform processes <strong>$2.1 trillion daily</strong>. 
-                            A developer adds a middleware proxy without filing a change request. 
-                            No human notices. SENTINEL does.
-                        </p>
-                        <div class="scenario-flow">
-                            <div class="flow-step">
-                                <div class="flow-step-header">
-                                    <span class="flow-number">1</span>
-                                    <span class="flow-title">Discovery Layer: "New node detected"</span>
-                                </div>
-                                <p>APM telemetry shows a new API call path: Settlement Engine → <strong>unknown middleware</strong> → Database. This middleware isn't in any CMDB or change ticket.</p>
-                            </div>
-                            <div class="flow-step">
-                                <div class="flow-step-header">
-                                    <span class="flow-number">2</span>
-                                    <span class="flow-title">Quantify Layer: "This is a single point of failure"</span>
-                                </div>
-                                <p>Graph analysis: The new middleware has <strong>zero redundancy</strong>. If it fails, the entire settlement path is severed. Impact score: <strong>94.2 / 100</strong>.</p>
-                            </div>
-                            <div class="flow-step">
-                                <div class="flow-step-header">
-                                    <span class="flow-number">3</span>
-                                    <span class="flow-title">Simulate Layer: "Here's what happens if it fails"</span>
-                                </div>
-                                <p>Cascade model predicts: 847 counterparty settlements blocked → DTCC contingency triggered within 2 hours → regulatory breach probable.</p>
-                            </div>
-                            <div class="flow-step flow-step-result">
-                                <div class="flow-step-header">
-                                    <span class="flow-number">✓</span>
-                                    <span class="flow-title">Response Layer: "Here's what to do"</span>
-                                </div>
-                                <p>Auto-generated finding with specific remediation: <strong>"Deploy HA pair for middleware proxy. Estimated effort: 2 days."</strong> Detection time: 4 minutes. Manual process would have missed this entirely.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="tab-panel" id="tabB">
-                    <div class="example-scenario">
-                        <div class="scenario-header">
-                            <span class="badge badge-warning">HIGH RISK</span>
-                            <h3>Hidden Vendor Concentration Risk</h3>
-                        </div>
-                        <p class="scenario-premise">
-                            Three seemingly independent vendors actually share a common parent company. 
-                            Manual vendor reviews missed this for <strong>3+ years</strong>. SENTINEL's NLP found it in hours.
-                        </p>
-                        <div class="vendor-tree">
-                            <div class="vendor-parent">
-                                <div class="vendor-node vendor-node-root">
-                                    <span class="vendor-name">MegaCorp Holdings</span>
-                                    <span class="vendor-role">Hidden Common Parent</span>
-                                </div>
-                            </div>
-                            <div class="vendor-children">
-                                <div class="vendor-branch">
-                                    <div class="vendor-connector"></div>
-                                    <div class="vendor-node">
-                                        <span class="vendor-name">Vendor A</span>
-                                        <span class="vendor-role">Cloud Hosting</span>
-                                        <span class="vendor-services">5 IBS dependent</span>
-                                    </div>
-                                </div>
-                                <div class="vendor-branch">
-                                    <div class="vendor-connector"></div>
-                                    <div class="vendor-node">
-                                        <span class="vendor-name">Vendor B</span>
-                                        <span class="vendor-role">Network Services</span>
-                                        <span class="vendor-services">4 IBS dependent</span>
-                                    </div>
-                                </div>
-                                <div class="vendor-branch">
-                                    <div class="vendor-connector"></div>
-                                    <div class="vendor-node">
-                                        <span class="vendor-name">Vendor C</span>
-                                        <span class="vendor-role">Data Feeds</span>
-                                        <span class="vendor-services">5 IBS dependent</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="scenario-flow">
-                            <div class="flow-step flow-step-result">
-                                <div class="flow-step-header">
-                                    <span class="flow-number">✓</span>
-                                    <span class="flow-title">How SENTINEL found it</span>
-                                </div>
-                                <p>NLP scanned vendor contracts, SEC filings, and corporate registries. Identified common parent entity. Graph analysis showed 14 Important Business Services dependent on a single corporate group. Recommendation: diversify network services vendor. Risk reduction: 62%.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="tab-panel" id="tabC">
-                    <div class="example-scenario">
-                        <div class="scenario-header">
-                            <span class="badge badge-critical">NOVEL THREAT</span>
-                            <h3>Supply Chain Attack Path Discovered</h3>
-                        </div>
-                        <p class="scenario-premise">
-                            The adversarial RL agent discovers an attack sequence — <strong>not in any existing playbook</strong> — 
-                            that could silently corrupt fund NAV calculations for 72 hours before anyone notices.
-                        </p>
-                        <div class="attack-chain">
-                            <div class="attack-step">
-                                <div class="attack-number">1</div>
-                                <div class="attack-content">
-                                    <h4>Credential Compromise</h4>
-                                    <p>Phishing → developer credentials compromised</p>
-                                </div>
-                            </div>
-                            <div class="attack-arrow">↓</div>
-                            <div class="attack-step">
-                                <div class="attack-number">2</div>
-                                <div class="attack-content">
-                                    <h4>Lateral Movement</h4>
-                                    <p>Access CI/CD pipeline via service account</p>
-                                </div>
-                            </div>
-                            <div class="attack-arrow">↓</div>
-                            <div class="attack-step">
-                                <div class="attack-number">3</div>
-                                <div class="attack-content">
-                                    <h4>Code Injection</h4>
-                                    <p>Subtle modification to NAV calculation module</p>
-                                </div>
-                            </div>
-                            <div class="attack-arrow">↓</div>
-                            <div class="attack-step attack-step-impact">
-                                <div class="attack-number">!</div>
-                                <div class="attack-content">
-                                    <h4>Silent Corruption</h4>
-                                    <p>340 funds with incorrect NAV for 72 hours</p>
-                                    <div class="attack-impact">Current detection gap: 72 hours</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="scenario-recommendation">
-                            <h4>🛡️ SENTINEL's Recommendation</h4>
-                            <p>Deploy integrity checksums on NAV calculation pipeline + real-time reconciliation monitoring. Estimated implementation: 6 weeks. Risk reduction: 94%. <strong>No human assessor had ever considered this attack vector.</strong></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ==================== LIVE WORKED EXAMPLE ==================== -->
-    <section class="section" id="live-example">
-        <div class="section-inner">
-            <div class="section-header scroll-reveal">
-                <span class="section-label">07 — Full Worked Example</span>
-                <h2 class="section-title">41 Minutes. <span class="glow-text">Zero Human Intervention.</span></h2>
-                <p class="section-subtitle">
-                    Follow SENTINEL as it detects a SWIFT gateway memory leak at 6:14 AM, 
-                    predicts a crash 90 minutes before it happens, executes proactive failover, 
-                    and generates regulatory reports — all without a single person being woken up.
-                </p>
-            </div>
-
-            <div class="live-context scroll-reveal">
-                <div class="context-card">
-                    <span class="context-label">📅 Date</span>
-                    <span class="context-value">Tuesday, March 17, 2027</span>
-                </div>
-                <div class="context-card">
-                    <span class="context-label">🕐 Time</span>
-                    <span class="context-value">6:14 AM EST</span>
-                </div>
-                <div class="context-card">
-                    <span class="context-label">🌍 Context</span>
-                    <span class="context-value">Asian markets closing, Europe opening</span>
-                </div>
-                <div class="context-card">
-                    <span class="context-label">⏱️ Resolution</span>
-                    <span class="context-value">41 minutes, zero clients impacted</span>
-                </div>
-            </div>
-
-            <div class="timeline scroll-reveal" id="liveTimeline">
+            <div class="timeline">
                 
-                <div class="timeline-item timeline-left">
-                    <div class="timeline-dot timeline-dot-blue"></div>
-                    <div class="timeline-card">
-                        <div class="timeline-time">6:14 AM — T+0</div>
-                        <div class="timeline-badge"><span class="badge badge-info">LAYER 1: DISCOVER</span></div>
-                        <h3 class="timeline-title">🔍 Anomaly Detected</h3>
-                        <div class="timeline-body">
-                            <p>APM telemetry shows SWIFT Gateway latency spiking from 15ms → 847ms. JVM heap at 94%. AI classifies: <strong>memory leak</strong> (confidence: 91%).</p>
-                            <div class="terminal-block">
-                                <div class="terminal-header">
-                                    <span class="terminal-dot red"></span>
-                                    <span class="terminal-dot yellow"></span>
-                                    <span class="terminal-dot green"></span>
-                                    <span class="terminal-title">ANOMALY ALERT</span>
-                                </div>
-                                <div class="terminal-body">
-                                    <div class="terminal-line"><span class="t-key">Latency:</span> <span class="t-red">847ms</span> (normal: 12-18ms) — <span class="t-red">47× spike</span></div>
-                                    <div class="terminal-line"><span class="t-key">JVM Heap:</span> <span class="t-amber">94%</span> &nbsp; <span class="t-key">GC Pauses:</span> <span class="t-red">3.2/sec</span></div>
-                                    <div class="terminal-line"><span class="t-key">Classification:</span> <span class="t-blue">MEMORY LEAK</span> (confidence: 0.91)</div>
-                                </div>
-                            </div>
+                <!-- BNY Mellon -->
+                <article class="timeline-entry">
+                    <div class="timeline-node"></div>
+                    <div class="job-card">
+                        <div class="job-header">
+                            <h3 class="job-title">Vice President, Technical Product Manager &amp; AI Product Owner</h3>
+                            <span class="badge-current"><span class="badge-dot"></span>Current</span>
                         </div>
+                        <a href="https://www.bnymellon.com" target="_blank" rel="noopener noreferrer" class="job-company">BNY (The Bank of New York Mellon)</a>
+                        <p class="job-dates">Dec 2023 – Present | Pittsburgh, PA</p>
+                        <p class="deliverables-heading">Key Accomplishments</p>
+                        <ul class="deliverables-list">
+                            <li><span class="check-icon">✓</span>Own product vision, roadmap, and delivery execution for BNY Connection, an enterprise resiliency platform supporting 500+ internal users across 90+ platforms.</li>
+                            <li><span class="check-icon">✓</span>Drive ERO AI agent initiatives, establishing agent requirements, user journeys, LLM prompt structures, and human-in-the-loop validation metrics.</li>
+                            <li><span class="check-icon">✓</span>Accelerate product design and delivery cycles by 40% using AI-assisted prototyping and GenAI-driven backlog refinement.</li>
+                            <li><span class="check-icon">✓</span>Lead delivery coordination across 3 Agile teams and 15+ developers, increasing sprint velocity to 95%.</li>
+                            <li><span class="check-icon">✓</span>Translate complex resiliency, workflow, compliance, and access controls into implementation-ready PRDs, epics, and user stories.</li>
+                        </ul>
                     </div>
-                </div>
+                </article>
 
-                <div class="timeline-item timeline-right">
-                    <div class="timeline-dot timeline-dot-orange"></div>
-                    <div class="timeline-card">
-                        <div class="timeline-time">6:15 AM — T+1 min</div>
-                        <div class="timeline-badge"><span class="badge badge-warning">LAYER 2: QUANTIFY</span></div>
-                        <h3 class="timeline-title">📊 Impact Scored: 87.3 — CRITICAL</h3>
-                        <div class="timeline-body">
-                            <p>6 ML models score the impact simultaneously:</p>
-                            <div class="impact-grid">
-                                <div class="impact-dimension">
-                                    <div class="impact-dim-header">
-                                        <span>💰 Financial — $1.8B settlements at risk</span>
-                                        <span class="impact-score impact-score-high">92</span>
-                                    </div>
-                                    <div class="impact-bar-bg"><div class="impact-bar" style="--bar-width: 92%"></div></div>
-                                </div>
-                                <div class="impact-dimension">
-                                    <div class="impact-dim-header">
-                                        <span>👥 Customer — 247 clients affected</span>
-                                        <span class="impact-score impact-score-high">88</span>
-                                    </div>
-                                    <div class="impact-bar-bg"><div class="impact-bar" style="--bar-width: 88%"></div></div>
-                                </div>
-                                <div class="impact-dimension">
-                                    <div class="impact-dim-header">
-                                        <span>⚖️ Regulatory — PRA IBS, FCA &lt;1hr RTO</span>
-                                        <span class="impact-score impact-score-high">85</span>
-                                    </div>
-                                    <div class="impact-bar-bg"><div class="impact-bar" style="--bar-width: 85%"></div></div>
-                                </div>
-                                <div class="impact-dimension">
-                                    <div class="impact-dim-header">
-                                        <span>🌐 Systemic — CLS/SWIFT/Fedwire exposed</span>
-                                        <span class="impact-score impact-score-high">81</span>
-                                    </div>
-                                    <div class="impact-bar-bg"><div class="impact-bar" style="--bar-width: 81%"></div></div>
-                                </div>
-                            </div>
+                <!-- CGI -->
+                <article class="timeline-entry">
+                    <div class="timeline-node"></div>
+                    <div class="job-card">
+                        <div class="job-header">
+                            <h3 class="job-title">Lead Business Systems Analyst &amp; Technical Product Owner</h3>
                         </div>
+                        <a href="https://www.cgi.com" target="_blank" rel="noopener noreferrer" class="job-company">CGI</a>
+                        <p class="job-dates">Apr 2020 – Dec 2023 | Pittsburgh, PA</p>
+                        <p class="deliverables-heading">Key Accomplishments</p>
+                        <ul class="deliverables-list">
+                            <li><span class="check-icon">✓</span>Led product requirements and delivery for centralized payments platforms supporting six transaction channels across cards, wires, and transfers.</li>
+                            <li><span class="check-icon">✓</span>Managed third-party vendor integrations (Fiserv, FIS) by defining API schemas, Swagger/OpenAPI documentation, and service mappings.</li>
+                            <li><span class="check-icon">✓</span>Delivered mission-critical wire transfer capabilities 2 weeks ahead of schedule for BBVA acquisition integration.</li>
+                            <li><span class="check-icon">✓</span>Led cross-functional Agile teams of 12 onshore/offshore engineers, delivering 35+ APIs and web/native mobile capabilities.</li>
+                            <li><span class="check-icon">✓</span>Designed and delivered 8 interactive Power BI risk dashboards on Hadoop infrastructure to analyze payment and complaint patterns.</li>
+                        </ul>
                     </div>
-                </div>
+                </article>
 
-                <div class="timeline-item timeline-left">
-                    <div class="timeline-dot timeline-dot-red"></div>
-                    <div class="timeline-card">
-                        <div class="timeline-time">6:16 AM — T+2 min</div>
-                        <div class="timeline-badge"><span class="badge badge-critical">LAYER 2: CASCADE</span></div>
-                        <h3 class="timeline-title">🕸️ Cascade: 7 Services, 247 Clients at Risk</h3>
-                        <div class="timeline-body">
-                            <p>The Graph Neural Network traces the failure propagation path:</p>
-                            <div class="cascade-tree">
-                                <div class="tree-node tree-root">
-                                    <span class="tree-label">SWIFT Gateway</span>
-                                    <span class="tree-status tree-status-degraded">DEGRADED</span>
-                                </div>
-                                <div class="tree-children">
-                                    <div class="tree-branch">
-                                        <div class="tree-line"></div>
-                                        <div class="tree-node tree-critical">
-                                            <span class="tree-label">Settlement Engine</span>
-                                            <span class="tree-prob">P(fail)=94% in 8 min</span>
-                                        </div>
-                                        <div class="tree-sub-children">
-                                            <div class="tree-branch">
-                                                <div class="tree-line"></div>
-                                                <div class="tree-node"><span class="tree-label">CLS Interface</span><span class="tree-prob">P=87% in 15 min</span></div>
-                                            </div>
-                                            <div class="tree-branch">
-                                                <div class="tree-line"></div>
-                                                <div class="tree-node"><span class="tree-label">Nostro Reconciliation</span><span class="tree-prob">P=76% in 22 min</span></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="tree-branch">
-                                        <div class="tree-line"></div>
-                                        <div class="tree-node"><span class="tree-label">FX Confirmations</span><span class="tree-prob">P=71% in 12 min</span></div>
-                                    </div>
-                                    <div class="tree-branch">
-                                        <div class="tree-line"></div>
-                                        <div class="tree-node tree-warning"><span class="tree-label">Sanctions Screening</span><span class="tree-prob">P=23% in 45 min</span><span class="tree-flag">⚠ REGULATORY CRITICAL</span></div>
-                                    </div>
-                                </div>
-                            </div>
+                <!-- Virtusa -->
+                <article class="timeline-entry">
+                    <div class="timeline-node"></div>
+                    <div class="job-card">
+                        <div class="job-header">
+                            <h3 class="job-title">Lead Business Analyst &amp; Product Owner</h3>
                         </div>
+                        <a href="https://www.virtusa.com" target="_blank" rel="noopener noreferrer" class="job-company">Virtusa</a>
+                        <p class="job-dates">Jun 2014 – Apr 2020 | Buffalo, NY &amp; India</p>
+                        <p class="deliverables-heading">Key Accomplishments</p>
+                        <ul class="deliverables-list">
+                            <li><span class="check-icon">✓</span>Led digital banking onboarding modernization for M&amp;T Bank, refactoring online account opening, and decreasing onboarding times by 80%.</li>
+                            <li><span class="check-icon">✓</span>Reduced disclosure document maintenance costs by 70% by designing self-managed UI solutions using Quadient Interactive.</li>
+                            <li><span class="check-icon">✓</span>Designed a scalable KYC remediation model and managed an in-house Institutional Client Lifecycle Management (CLM) framework.</li>
+                            <li><span class="check-icon">✓</span>Built Tableau analytics dashboards on multi-application Hadoop data, enhancing 360-degree customer visibility.</li>
+                            <li><span class="check-icon">✓</span>Transformed back-office operations for a top UAE retail bank, reducing manual data entry efforts by 55% using RPA.</li>
+                        </ul>
                     </div>
-                </div>
+                </article>
 
-                <div class="timeline-item timeline-right">
-                    <div class="timeline-dot timeline-dot-amber"></div>
-                    <div class="timeline-card">
-                        <div class="timeline-time">6:17 AM — T+3 min</div>
-                        <div class="timeline-badge"><span class="badge badge-warning">LAYER 3: SIMULATE</span></div>
-                        <h3 class="timeline-title">🎯 3 Futures Simulated → Best Path Chosen</h3>
-                        <div class="timeline-body">
-                            <p>Digital twin runs 3,000 Monte Carlo iterations across three scenarios:</p>
-                            <div class="scenarios-grid">
-                                <div class="scenario-card scenario-low">
-                                    <div class="scenario-prob">15% likely</div>
-                                    <h4>Self-Stabilizes</h4>
-                                    <p>Leak plateaus. Recovery in 45 min.</p>
-                                    <div class="scenario-action">Action: Monitor</div>
-                                </div>
-                                <div class="scenario-card scenario-med scenario-most-likely">
-                                    <div class="scenario-prob">62% likely</div>
-                                    <div class="most-likely-badge">MOST LIKELY</div>
-                                    <h4>Crash at 7:45 AM</h4>
-                                    <p>Uncontrolled crash pre-market open.</p>
-                                    <div class="scenario-action">Action: Proactive failover</div>
-                                </div>
-                                <div class="scenario-card scenario-high">
-                                    <div class="scenario-prob">23% likely</div>
-                                    <h4>Crash at 9:30 AM</h4>
-                                    <p>Peak volume. Tolerance breached.</p>
-                                    <div class="scenario-action">⚠️ WORST CASE</div>
-                                </div>
-                            </div>
-                            <div class="ai-recommendation">
-                                <div class="rec-icon">🤖</div>
-                                <div class="rec-content">
-                                    <h4>AI Decision: Execute Proactive Failover NOW</h4>
-                                    <p>Cost of proactive action: <strong>$180K</strong>. Expected loss avoided: <strong>$34M–$67M</strong>. The math is obvious. SENTINEL acts.</p>
-                                </div>
-                            </div>
+                <!-- Infosys -->
+                <article class="timeline-entry">
+                    <div class="timeline-node"></div>
+                    <div class="job-card">
+                        <div class="job-header">
+                            <h3 class="job-title">Business Analyst - Banking Technology</h3>
                         </div>
+                        <span class="job-company">Infosys Limited</span>
+                        <p class="job-dates">Nov 2010 – Jul 2012 | India</p>
+                        <p class="deliverables-heading">Key Accomplishments</p>
+                        <ul class="deliverables-list">
+                            <li><span class="check-icon">✓</span>Captured change requests, user stories, and specifications by interfacing with client architects and technical teams.</li>
+                            <li><span class="check-icon">✓</span>Prepared BRD/FSD documentation and validation artifacts, including test scenarios, cases, and reports.</li>
+                            <li><span class="check-icon">✓</span>Executed UAT and functional/regression validation tests across core banking application enhancements.</li>
+                        </ul>
                     </div>
-                </div>
+                </article>
 
-                <div class="timeline-item timeline-left">
-                    <div class="timeline-dot timeline-dot-green"></div>
-                    <div class="timeline-card">
-                        <div class="timeline-time">6:18–6:53 AM — T+4 to T+39 min</div>
-                        <div class="timeline-badge"><span class="badge badge-success">LAYER 4: RESPOND</span></div>
-                        <h3 class="timeline-title">🛡️ 8-Step Recovery Executed Autonomously</h3>
-                        <div class="timeline-body">
-                            <div class="recovery-steps">
-                                <div class="recovery-step done"><span class="step-time">6:18</span><span class="step-status">✓</span><span class="step-text">Activate DR gateway health check</span></div>
-                                <div class="recovery-step done"><span class="step-time">6:21</span><span class="step-status">✓</span><span class="step-text">Drain connections from primary (graceful)</span></div>
-                                <div class="recovery-step done"><span class="step-time">6:23</span><span class="step-status">✓</span><span class="step-text">Redirect DNS to DR gateway (TTL: 60s)</span></div>
-                                <div class="recovery-step done"><span class="step-time">6:25</span><span class="step-status">✓</span><span class="step-text">Verify message flow — synthetic transaction test</span></div>
-                                <div class="recovery-step done"><span class="step-time">6:28</span><span class="step-status">✓</span><span class="step-text">Re-queue 34 in-flight messages</span></div>
-                                <div class="recovery-step done"><span class="step-time">6:35</span><span class="step-status">✓</span><span class="step-text">Validate CLS settlement connectivity</span></div>
-                                <div class="recovery-step done"><span class="step-time">6:45</span><span class="step-status">✓</span><span class="step-text">End-to-end settlement test with test counterparty</span></div>
-                                <div class="recovery-step done final"><span class="step-time">6:53</span><span class="step-status">✓</span><span class="step-text">DR gateway declared PRIMARY — Resolution complete</span></div>
-                            </div>
+                <!-- Laxnar -->
+                <article class="timeline-entry">
+                    <div class="timeline-node"></div>
+                    <div class="job-card">
+                        <div class="job-header">
+                            <h3 class="job-title">System Analyst</h3>
                         </div>
+                        <span class="job-company">Laxnar</span>
+                        <p class="job-dates">Jul 2010 – Nov 2010 | India</p>
+                        <p class="deliverables-heading">Key Accomplishments</p>
+                        <ul class="deliverables-list">
+                            <li><span class="check-icon">✓</span>Implemented accounting, inventory, and management systems by analyzing existing workflows and drafting BRD documentation.</li>
+                            <li><span class="check-icon">✓</span>Created Visio process flows and prototype designs to validate requirements and support development.</li>
+                        </ul>
                     </div>
-                </div>
+                </article>
 
-                <div class="timeline-item timeline-right">
-                    <div class="timeline-dot timeline-dot-violet"></div>
-                    <div class="timeline-card">
-                        <div class="timeline-time">6:55 AM — T+41 min</div>
-                        <div class="timeline-badge"><span class="badge badge-info">LAYER 5: REPORT</span></div>
-                        <h3 class="timeline-title">📋 3 Reports Auto-Generated</h3>
-                        <div class="timeline-body">
-                            <div class="reports-grid">
-                                <div class="report-card">
-                                    <div class="report-icon">🏛️</div>
-                                    <h4>PRA Regulatory</h4>
-                                    <p>Near-miss report. Impact tolerance: 0% consumed. Evidence attached.</p>
-                                    <span class="badge badge-success">READY</span>
-                                </div>
-                                <div class="report-card">
-                                    <div class="report-icon">📊</div>
-                                    <h4>Board Summary</h4>
-                                    <p>AI system detected and resolved threat 90 min before crash.</p>
-                                    <span class="badge badge-success">READY</span>
-                                </div>
-                                <div class="report-card">
-                                    <div class="report-icon">🔍</div>
-                                    <h4>Audit Trail</h4>
-                                    <p>Every decision logged: inputs, model version, confidence, rationale.</p>
-                                    <span class="badge badge-success">IMMUTABLE</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+       SKILLS & TOOLS
+       ========================================== -->
+    <section class="section-skills" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="display-lg fade-up">Skills &amp; Tools</h2>
+                <p class="body-lg fade-up">My core competencies spanning product management, analytical systems, and emerging AI technologies.</p>
             </div>
 
-            <div class="live-summary scroll-reveal">
-                <div class="summary-comparison">
-                    <div class="summary-col summary-ai">
-                        <h3>With SENTINEL</h3>
-                        <div class="summary-metrics">
-                            <div class="summary-metric"><span class="summary-metric-value">4 min</span><span class="summary-metric-label">Detection → Decision</span></div>
-                            <div class="summary-metric"><span class="summary-metric-value">41 min</span><span class="summary-metric-label">Detection → Resolution</span></div>
-                            <div class="summary-metric"><span class="summary-metric-value">ZERO</span><span class="summary-metric-label">Clients Impacted</span></div>
-                            <div class="summary-metric"><span class="summary-metric-value">ZERO</span><span class="summary-metric-label">Humans Required</span></div>
-                        </div>
+            <div class="skills-grid">
+                
+                <!-- AI & Automation -->
+                <div class="skill-group skill-group--ai fade-up stagger-1">
+                    <div class="skill-group-header">
+                        <span class="skill-group-icon">🤖</span>
+                        <span class="skill-group-title">AI &amp; Automation</span>
                     </div>
-                    <div class="summary-vs">VS</div>
-                    <div class="summary-col summary-manual">
-                        <h3>Without SENTINEL</h3>
-                        <div class="summary-metrics">
-                            <div class="summary-metric"><span class="summary-metric-value">90+ min</span><span class="summary-metric-label">Detection (after crash)</span></div>
-                            <div class="summary-metric"><span class="summary-metric-value">3+ hours</span><span class="summary-metric-label">Detection → Resolution</span></div>
-                            <div class="summary-metric"><span class="summary-metric-value">247</span><span class="summary-metric-label">Clients Impacted</span></div>
-                            <div class="summary-metric"><span class="summary-metric-value">BREACH</span><span class="summary-metric-label">Impact Tolerance Exceeded</span></div>
-                        </div>
+                    <div class="skill-list">
+                        <span class="skill-pill">Agentic AI</span>
+                        <span class="skill-pill">LLM Workflows</span>
+                        <span class="skill-pill">Prompt Design</span>
+                        <span class="skill-pill">Agent Instruction</span>
+                        <span class="skill-pill">Microsoft Copilot</span>
+                        <span class="skill-pill">Claude/MCP</span>
+                        <span class="skill-pill">Google Antigravity</span>
                     </div>
+                </div>
+
+                <!-- Product Leadership -->
+                <div class="skill-group skill-group--product fade-up stagger-2">
+                    <div class="skill-group-header">
+                        <span class="skill-group-icon">🎯</span>
+                        <span class="skill-group-title">Product Leadership</span>
+                    </div>
+                    <div class="skill-list">
+                        <span class="skill-pill">Product Discovery</span>
+                        <span class="skill-pill">Agile/Scrum</span>
+                        <span class="skill-pill">Jira &amp; Confluence</span>
+                        <span class="skill-pill">PRDs &amp; User Stories</span>
+                        <span class="skill-pill">OKRs &amp; Roadmaps</span>
+                        <span class="skill-pill">PI Planning</span>
+                        <span class="skill-pill">PPM/GOT Portals</span>
+                    </div>
+                </div>
+
+                <!-- Data & Analytics -->
+                <div class="skill-group skill-group--data fade-up stagger-3">
+                    <div class="skill-group-header">
+                        <span class="skill-group-icon">📊</span>
+                        <span class="skill-group-title">Data &amp; Analytics</span>
+                    </div>
+                    <div class="skill-list">
+                        <span class="skill-pill">Power BI</span>
+                        <span class="skill-pill">Tableau</span>
+                        <span class="skill-pill">SQL &amp; DAX</span>
+                        <span class="skill-pill">Hadoop &amp; Hive</span>
+                        <span class="skill-pill">Impala &amp; Sqoop</span>
+                        <span class="skill-pill">KPI Definition</span>
+                        <span class="skill-pill">Data Validation</span>
+                    </div>
+                </div>
+
+                <!-- Technical Delivery -->
+                <div class="skill-group skill-group--technical fade-up stagger-4">
+                    <div class="skill-group-header">
+                        <span class="skill-group-icon">⚡</span>
+                        <span class="skill-group-title">Technical Delivery</span>
+                    </div>
+                    <div class="skill-list">
+                        <span class="skill-pill">REST APIs</span>
+                        <span class="skill-pill">Swagger/OpenAPI</span>
+                        <span class="skill-pill">BIAN Standards</span>
+                        <span class="skill-pill">Kafka Stream</span>
+                        <span class="skill-pill">SWIFT &amp; ACH</span>
+                        <span class="skill-pill">GL/Mainframe</span>
+                        <span class="skill-pill">Java &amp; Cloud</span>
+                    </div>
+                </div>
+
+                <!-- Process & Modeling -->
+                <div class="skill-group skill-group--process fade-up stagger-1">
+                    <div class="skill-group-header">
+                        <span class="skill-group-icon">⚙️</span>
+                        <span class="skill-group-title">Process &amp; Domain</span>
+                    </div>
+                    <div class="skill-list">
+                        <span class="skill-pill">Blueworks Live</span>
+                        <span class="skill-pill">MS Visio</span>
+                        <span class="skill-pill">PEGA BPM</span>
+                        <span class="skill-pill">AS-IS/TO-BE</span>
+                        <span class="skill-pill">KYC/AML</span>
+                        <span class="skill-pill">Fraud Control</span>
+                        <span class="skill-pill">Resiliency 2.0</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+       CERTIFICATIONS
+       ========================================== -->
+    <section class="section-certs" id="certs">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="display-lg fade-up">Certifications &amp; Credentials</h2>
+                <p class="body-lg fade-up">Professional certifications in Artificial Intelligence, Agile product management, and data analytics.</p>
+            </div>
+
+            <div class="certs-grid">
+                
+                <!-- Cert 1 -->
+                <div class="cert-card fade-up stagger-1">
+                    <div>
+                        <div class="cert-category-label">AI &amp; Automation</div>
+                        <h4 class="cert-name">BNY AI Pioneer Certification</h4>
+                        <span class="cert-org">BNY Mellon (Completed AI Bootcamp)</span>
+                    </div>
+                    <div class="cert-date">Issued 2026</div>
+                </div>
+
+                <!-- Cert 2 -->
+                <div class="cert-card fade-up stagger-2">
+                    <div>
+                        <div class="cert-category-label">AI &amp; Automation</div>
+                        <h4 class="cert-name">Agentic AI, Snowflake AI, &amp; Transformers</h4>
+                        <span class="cert-org">DeepLearning.AI</span>
+                    </div>
+                    <div class="cert-date">Issued 2025</div>
+                </div>
+
+                <!-- Cert 3 -->
+                <div class="cert-card fade-up stagger-3">
+                    <div>
+                        <div class="cert-category-label">AI Strategy</div>
+                        <h4 class="cert-name">Google Generative AI Leader</h4>
+                        <span class="cert-org">Google</span>
+                    </div>
+                    <div class="cert-date">Issued 2025</div>
+                </div>
+
+                <!-- Cert 4 -->
+                <div class="cert-card fade-up stagger-4">
+                    <div>
+                        <div class="cert-category-label">AI Product Management</div>
+                        <h4 class="cert-name">Microsoft Certified AI Product Manager</h4>
+                        <span class="cert-org">Microsoft</span>
+                    </div>
+                    <div class="cert-date">Issued 2025</div>
+                </div>
+
+                <!-- Cert 5 -->
+                <div class="cert-card fade-up stagger-1">
+                    <div>
+                        <div class="cert-category-label">Agile Leadership</div>
+                        <h4 class="cert-name">Professional Scrum Product Owner I (PSPO I)</h4>
+                        <span class="cert-org">Scrum.org</span>
+                    </div>
+                    <div class="cert-date">Issued 2024</div>
+                </div>
+
+                <!-- Cert 6 -->
+                <div class="cert-card fade-up stagger-2">
+                    <div>
+                        <div class="cert-category-label">Data Analytics</div>
+                        <h4 class="cert-name">Power BI Data Analyst Associate</h4>
+                        <span class="cert-org">Microsoft</span>
+                    </div>
+                    <div class="cert-date">Issued 2022</div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+       ABOUT SECTION
+       ========================================== -->
+    <section class="section-about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="display-lg fade-up">About Me</h2>
+                <p class="body-lg fade-up">Bridging engineering roots, business strategy, and enterprise execution.</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-image fade-up">
+                    <img src="shubham.jpg" alt="Shubham Vijayvargiya Profile Photo">
+                </div>
+                <div class="about-text slide-right">
+                    <p>
+                        I started my career with a solid foundation in computer engineering (B.Tech from BIET Jhansi), which instilled a passion for building robust, scalable software. To bridge the gap between technical execution and business outcomes, I pursued an MBA (Finance &amp; IT) from IIT Delhi, which shaped my approach to product design and operational management.
+                    </p>
+                    <p>
+                        Over the past 14 years, I have worked across banking technology, data analytics, payments, and risk workflows at global institutions like BNY Mellon, CGI, and Virtusa. Today, my work focuses on translating complex enterprise requirements into implementable product features. 
+                    </p>
+                    <p>
+                        Currently, as a Vice President and AI Product Owner at BNY Mellon, I design and orchestrate agentic AI agent suites and LLM integrations for BNY Connection, our enterprise resiliency platform. What drives me is building products that make legacy operational frameworks automated, intelligent, and highly scalable.
+                    </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- ==================== 6-MONTH ROADMAP ==================== -->
-    <section class="section section-dark" id="roadmap">
-        <div class="section-inner">
-            <div class="section-header scroll-reveal">
-                <span class="section-label">08 — 6-Month Roadmap</span>
-                <h2 class="section-title">From Kickoff to <span class="glow-text">Production in 26 Weeks</span></h2>
-                <p class="section-subtitle">Each sprint delivers a working, usable product. You see value from Week 6, not Month 24.</p>
+    <!-- ==========================================
+       CONTACT SECTION
+       ========================================== -->
+    <section class="section-contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="display-lg fade-up">Let's Connect</h2>
+                <p class="body-lg fade-up">Open to discussions on AI product management, enterprise resiliency, fintech, or strategy leadership.</p>
             </div>
 
-            <div class="roadmap scroll-reveal">
-                <div class="roadmap-line"></div>
-                <div class="phase-block phase-active" data-phase="1">
-                    <div class="phase-header">
-                        <span class="phase-number">Sprint 1</span>
-                        <span class="phase-dates">Weeks 1–6</span>
-                    </div>
-                    <h3 class="phase-title">Foundation & Discovery</h3>
-                    <ul class="phase-items">
-                        <li>Data integration platform</li>
-                        <li>Auto-dependency mapping</li>
-                        <li>NLP document parsing</li>
-                    </ul>
-                    <span class="badge badge-info">START HERE</span>
-                </div>
-                <div class="phase-block" data-phase="2">
-                    <div class="phase-header">
-                        <span class="phase-number">Sprint 2</span>
-                        <span class="phase-dates">Weeks 7–12</span>
-                    </div>
-                    <h3 class="phase-title">Impact Scoring</h3>
-                    <ul class="phase-items">
-                        <li>6 ML scoring models</li>
-                        <li>Cascade analysis (GNN)</li>
-                        <li>Live risk dashboard</li>
-                    </ul>
-                </div>
-                <div class="phase-block" data-phase="3">
-                    <div class="phase-header">
-                        <span class="phase-number">Sprint 3</span>
-                        <span class="phase-dates">Weeks 13–18</span>
-                    </div>
-                    <h3 class="phase-title">Scenario Simulation</h3>
-                    <ul class="phase-items">
-                        <li>GenAI scenario engine</li>
-                        <li>Digital twin MVP</li>
-                        <li>Adversarial RL agent</li>
-                    </ul>
-                </div>
-                <div class="phase-block" data-phase="4">
-                    <div class="phase-header">
-                        <span class="phase-number">Sprint 4</span>
-                        <span class="phase-dates">Weeks 19–26</span>
-                    </div>
-                    <h3 class="phase-title">Automation & Go-Live</h3>
-                    <ul class="phase-items">
-                        <li>Recovery optimizer</li>
-                        <li>Runbook generator</li>
-                        <li>Regulatory reporting</li>
-                        <li>SR 11-7 validation</li>
-                    </ul>
-                    <span class="badge badge-success">PRODUCTION</span>
-                </div>
+            <div class="contact-links fade-up">
+                <a href="mailto:vijayvargiya.shubham@gmail.com" class="contact-link">
+                    <span>✉️</span> vijayvargiya.shubham@gmail.com
+                </a>
+                <a href="https://www.linkedin.com/in/shubhamvijayvargiya/" target="_blank" rel="noopener noreferrer" class="contact-link">
+                    <span>💼</span> LinkedIn Profile
+                </a>
+                <a href="tel:+17164631221" class="contact-link">
+                    <span>📞</span> (716) 463-1221
+                </a>
             </div>
 
-            <!-- What you get at each milestone -->
-            <div class="milestone-grid scroll-reveal">
-                <h3 class="subsection-title">What You Can Use at Each Milestone</h3>
-                <div class="comparison-table-wrapper">
-                    <table class="comparison-table">
-                        <thead>
-                            <tr>
-                                <th>Capability</th>
-                                <th class="col-current">Today</th>
-                                <th>Week 6</th>
-                                <th>Week 12</th>
-                                <th>Week 18</th>
-                                <th class="col-target">Week 26</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Dependency mapping</td>
-                                <td class="col-current">60% accurate, annual</td>
-                                <td>95%+ accurate, live ✅</td>
-                                <td>—</td>
-                                <td>—</td>
-                                <td class="col-target">—</td>
-                            </tr>
-                            <tr>
-                                <td>Impact quantification</td>
-                                <td class="col-current">H/M/L adjectives</td>
-                                <td>—</td>
-                                <td>Dollar-denominated ✅</td>
-                                <td>—</td>
-                                <td class="col-target">—</td>
-                            </tr>
-                            <tr>
-                                <td>Scenario testing</td>
-                                <td class="col-current">20 recycled scenarios</td>
-                                <td>—</td>
-                                <td>—</td>
-                                <td>10,000+/quarter ✅</td>
-                                <td class="col-target">—</td>
-                            </tr>
-                            <tr>
-                                <td>Recovery planning</td>
-                                <td class="col-current">Static runbooks (47% stale)</td>
-                                <td>—</td>
-                                <td>—</td>
-                                <td>—</td>
-                                <td class="col-target">Auto-generated ✅</td>
-                            </tr>
-                            <tr>
-                                <td>Regulatory reporting</td>
-                                <td class="col-current">4–6 weeks manual</td>
-                                <td>—</td>
-                                <td>—</td>
-                                <td>—</td>
-                                <td class="col-target">&lt;48 hours auto ✅</td>
-                            </tr>
-                            <tr>
-                                <td>Assessment frequency</td>
-                                <td class="col-current">Annual</td>
-                                <td>Daily</td>
-                                <td>Hourly</td>
-                                <td>Continuous</td>
-                                <td class="col-target">Continuous ✅</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
+            <div class="contact-form-wrap fade-up">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="What's this about?" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Type your message here..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" id="formSubmitBtn">Send Message</button>
+                </form>
             </div>
         </div>
     </section>
 
-    <!-- ==================== CTA ==================== -->
-    <section class="section cta-section" id="cta">
-        <div class="section-inner">
-            <div class="cta-content scroll-reveal">
-                <h2 class="cta-title">Ready to Build SENTINEL?</h2>
-                <p class="cta-text">
-                    Approve <strong>Sprint 1</strong> — Foundation & Discovery<br>
-                    <strong>6 weeks</strong> to a working dependency map that's better than anything we have today.
-                </p>
-                <p class="cta-subtext">
-                    Every 6 weeks after that, another AI layer comes online — until we have continuous, 
-                    autonomous resilience assessment by Week 26.
-                </p>
-                <div class="cta-pillars">
-                    <div class="cta-pillar">
-                        <div class="cta-pillar-icon">🚀</div>
-                        <h4>Ship Early</h4>
-                        <p>Working product every 6 weeks — not a big-bang in 2 years</p>
-                    </div>
-                    <div class="cta-pillar">
-                        <div class="cta-pillar-icon">🧠</div>
-                        <h4>Proven Tech</h4>
-                        <p>Enterprise-grade tools already used in financial services</p>
-                    </div>
-                    <div class="cta-pillar">
-                        <div class="cta-pillar-icon">🔄</div>
-                        <h4>Learn & Iterate</h4>
-                        <p>Each sprint learns from real data to improve the next</p>
-                    </div>
-                    <div class="cta-pillar">
-                        <div class="cta-pillar-icon">⚖️</div>
-                        <h4>Regulatory Ready</h4>
-                        <p>SR 11-7, PRA, DORA compliance built in from Sprint 1</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ==================== FOOTER ==================== -->
+    <!-- ==========================================
+       FOOTER
+       ========================================== -->
     <footer class="footer">
-        <div class="footer-inner">
-            <span class="footer-logo">◆ Project SENTINEL</span>
-            <span class="footer-text">Confidential — Executive Proposal — June 2026</span>
-            <span class="footer-text">Operational Resilience Program Office</span>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Shubham Vijayvargiya</h4>
+                    <p>Technical Product Manager &amp; AI Product Owner specialized in building intelligent financial core platforms and agentic automation.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#featured-work">Featured Work</a></li>
+                        <li><a href="#insights">Insights</a></li>
+                        <li><a href="#career">Journey</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <ul class="footer-links">
+                        <li><a href="mailto:vijayvargiya.shubham@gmail.com">Email</a></li>
+                        <li><a href="https://www.linkedin.com/in/shubhamvijayvargiya/" target="_blank">LinkedIn</a></li>
+                        <li><a href="#contact">Contact Form</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 Shubham Vijayvargiya. Crafted with premium HTML/CSS design principles.</p>
+            </div>
         </div>
     </footer>
 
-    <script src="app.js"></script>
+    <!-- ==========================================
+       SCRIPTS
+       ========================================== -->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        
+        // --- 1. Intersection Observer for Scroll Reveals ---
+        const observerOptions = {
+            root: null,
+            rootMargin: '0px 0px -10% 0px',
+            threshold: 0.1
+        };
+
+        const animationObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('in-view');
+                    
+                    // Handle staggered items
+                    const staggeredElements = entry.target.querySelectorAll('.stagger-1, .stagger-2, .stagger-3, .stagger-4');
+                    staggeredElements.forEach((el, index) => {
+                        setTimeout(() => {
+                            el.classList.add('in-view');
+                        }, index * 150);
+                    });
+                    
+                    // Once animated, stop observing
+                    animationObserver.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        const animatedElements = document.querySelectorAll('.fade-up, .scale-up, .slide-left, .slide-right');
+        animatedElements.forEach(el => animationObserver.observe(el));
+
+        // Smooth scroll reveal for timeline entries
+        const timelineEntries = document.querySelectorAll('.timeline-entry');
+        const timelineObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('in-view');
+                    timelineObserver.unobserve(entry.target);
+                }
+            });
+        }, { rootMargin: '0px 0px -5% 0px', threshold: 0.05 });
+        timelineEntries.forEach(el => timelineObserver.observe(el));
+
+        // --- 2. Navbar Scrolling Glassmorphism ---
+        const navbar = document.getElementById('navbar');
+        function handleNavbarScroll() {
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        }
+        window.addEventListener('scroll', handleNavbarScroll, { passive: true });
+        handleNavbarScroll();
+
+        // --- 3. Active Nav Tracker ---
+        const sections = document.querySelectorAll('section[id], header[id]');
+        const navLinks = document.querySelectorAll('.nav-links a');
+
+        function updateActiveNav() {
+            let currentSection = '';
+            const scrollPos = window.scrollY + 150;
+
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (scrollPos >= sectionTop && scrollPos < (sectionTop + sectionHeight)) {
+                    currentSection = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (currentSection && link.getAttribute('href') === `#${currentSection}`) {
+                    link.classList.add('active');
+                }
+            });
+        }
+        window.addEventListener('scroll', updateActiveNav, { passive: true });
+        updateActiveNav();
+
+        // --- 4. Mobile Menu Toggle ---
+        const mobileToggle = document.getElementById('mobileMenuToggle');
+        const navLinksMenu = document.getElementById('navLinks');
+
+        if (mobileToggle && navLinksMenu) {
+            mobileToggle.addEventListener('click', function() {
+                navLinksMenu.classList.toggle('mobile-active');
+                this.textContent = navLinksMenu.classList.contains('mobile-active') ? '✕' : '☰';
+            });
+
+            // Close mobile menu when nav links are clicked
+            navLinksMenu.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', () => {
+                    navLinksMenu.classList.remove('mobile-active');
+                    mobileToggle.textContent = '☰';
+                });
+            });
+        }
+
+        // --- 5. Contact Form Handler (Mailto Construction) ---
+        const contactForm = document.getElementById('contactForm');
+        if (contactForm) {
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                const name = document.getElementById('name').value;
+                const email = document.getElementById('email').value;
+                const subject = document.getElementById('subject').value;
+                const message = document.getElementById('message').value;
+                
+                const mailtoUrl = `mailto:vijayvargiya.shubham@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`From: ${name} (${email})\n\n${message}`)}`;
+                
+                const submitBtn = document.getElementById('formSubmitBtn');
+                const originalText = submitBtn.textContent;
+                submitBtn.textContent = 'Opening Email Client...';
+                submitBtn.disabled = true;
+                
+                window.location.href = mailtoUrl;
+                
+                setTimeout(() => {
+                    submitBtn.textContent = originalText;
+                    submitBtn.disabled = false;
+                }, 2500);
+            });
+        }
+
+        // --- 6. Insights Carousel Slider ---
+        (function() {
+            const carousel = document.getElementById('insightsCarousel');
+            const track = document.getElementById('insightsTrack');
+            const prevBtn = document.getElementById('insightsPrev');
+            const nextBtn = document.getElementById('insightsNext');
+            
+            if (!carousel || !track || !prevBtn || !nextBtn) return;
+
+            let currentIndex = 0;
+            const gap = 24; // matches gap in CSS
+
+            function getVisibleCards() {
+                if (window.innerWidth < 768) return 1;
+                if (window.innerWidth < 1024) return 2;
+                return 3;
+            }
+
+            function updateCarousel() {
+                const cards = track.querySelectorAll('.insight-card');
+                const totalCards = cards.length;
+                const visible = getVisibleCards();
+                const carouselWidth = carousel.offsetWidth;
+                
+                const cardWidth = (carouselWidth - gap * (visible - 1)) / visible;
+                
+                cards.forEach(card => {
+                    card.style.width = cardWidth + 'px';
+                    card.style.flexShrink = '0';
+                });
+
+                const maxIndex = Math.max(0, totalCards - visible);
+                currentIndex = Math.min(currentIndex, maxIndex);
+
+                track.style.transform = `translateX(-${currentIndex * (cardWidth + gap)}px)`;
+
+                prevBtn.disabled = currentIndex === 0;
+                nextBtn.disabled = currentIndex >= maxIndex;
+            }
+
+            prevBtn.addEventListener('click', () => {
+                if (currentIndex > 0) {
+                    currentIndex--;
+                    updateCarousel();
+                }
+            });
+
+            nextBtn.addEventListener('click', () => {
+                const cards = track.querySelectorAll('.insight-card');
+                const visible = getVisibleCards();
+                const maxIndex = Math.max(0, cards.length - visible);
+                if (currentIndex < maxIndex) {
+                    currentIndex++;
+                    updateCarousel();
+                }
+            });
+
+            window.addEventListener('resize', updateCarousel);
+            updateCarousel();
+            
+            // Trigger layout recalculation after load
+            setTimeout(updateCarousel, 150);
+        })();
+
+        console.log('⚡ Portfolio UI Script Loaded Successfully.');
+    });
+    </script>
 </body>
 </html>
